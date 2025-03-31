@@ -1,0 +1,17 @@
+.herro-section{
+    
+    background-repeat: no-repeat;
+    background-position: center bot;
+    background-size: cover;
+    padding: 90px 0 !important;
+    
+    @media(min-width:576px){
+        padding: 25.2rem 0 !important;
+        background-position: center top;
+    }
+    @media(min-width:992px){
+        background-position: center bot;
+        
+    }  
+}
+

@@ -11,14 +11,20 @@ body{
 
 h1, .h1{
     line-height: 6.8rem;
+    font-family: $playfair-display;
 }
 
 h2, .h2{
     line-height: 4.6rem;
-    letter-spacing: 10%;
+    letter-spacing: 0.3rem;
+    font-family: $playfair-display;
 }
 
 h3, .h3{
     line-height: 4.6rem;
     font-weight: 400;
+}
+
+h4, .h4{
+    line-height: 2.4rem;
 }
