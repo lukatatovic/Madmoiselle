@@ -3256,15 +3256,15 @@ textarea.form-control-lg {
 .navbar {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
-  --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.65);
-  --bs-navbar-hover-color: rgba(var(--bs-emphasis-color-rgb), 0.8);
+  --bs-navbar-color: #000;
+  --bs-navbar-hover-color: #ECD9D9;
   --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), 0.3);
-  --bs-navbar-active-color: rgba(var(--bs-emphasis-color-rgb), 1);
+  --bs-navbar-active-color: #ECD9D9;
   --bs-navbar-brand-padding-y: 0.2rem;
   --bs-navbar-brand-margin-end: 1rem;
   --bs-navbar-brand-font-size: 2rem;
-  --bs-navbar-brand-color: rgba(var(--bs-emphasis-color-rgb), 1);
-  --bs-navbar-brand-hover-color: rgba(var(--bs-emphasis-color-rgb), 1);
+  --bs-navbar-brand-color: #ECD9D9;
+  --bs-navbar-brand-hover-color: #ECD9D9;
   --bs-navbar-nav-link-padding-x: 0.5rem;
   --bs-navbar-toggler-padding-y: 0.25rem;
   --bs-navbar-toggler-padding-x: 0.75rem;
@@ -9466,3 +9466,43 @@ h2, .h2, .h2 {
 h3, .h3, .h3 {
   line-height: 4.6rem;
   font-weight: 400; }
+
+header .navbar-toggler {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important; }
+  header .navbar-toggler span {
+    width: 3rem;
+    height: 3px;
+    background-color: #ECD9D9;
+    margin-bottom: 5px;
+    display: block; }
+    header .navbar-toggler span:last-of-type {
+      margin-bottom: 0; }
+
+header .navbar-brand {
+  max-width: 200px;
+  padding: 0 !important; }
+  header .navbar-brand img {
+    display: block; }
+
+@media (min-width: 992px) {
+  header .navbar-nav .nav-item {
+    margin-right: 6.8rem; }
+    header .navbar-nav .nav-item:last-of-type {
+      margin-right: 0; } }
+
+header .navbar-nav .nav-item .nav-link {
+  font-size: 1.4rem;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: 1%;
+  padding: 10px 0 !important;
+  border-bottom: 1px solid transparent; }
+  @media (min-width: 992px) {
+    header .navbar-nav .nav-item .nav-link {
+      padding: 0 !important;
+      padding-bottom: 4px !important; }
+      header .navbar-nav .nav-item .nav-link:hover, header .navbar-nav .nav-item .nav-link.active {
+        border-bottom: 1px solid #ECD9D9;
+        color: #000; } }
