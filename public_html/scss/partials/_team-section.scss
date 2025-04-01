@@ -1,7 +1,8 @@
 $dot-color:rgba(208, 182, 182, 0.4);
 $dot-color-active:rgba(208, 182, 182, 1);
 .team-section{
-    padding-bottom: 10.4rem;
+    padding-bottom: 10.4rem !important;
+    
     .team-title{
         margin-bottom: 2.8rem;
     }
