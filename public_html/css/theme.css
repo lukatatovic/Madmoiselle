@@ -9594,3 +9594,37 @@ header .navbar-nav .nav-item .nav-link {
   .services-section .services-image img {
     display: block;
     width: 100%; }
+
+.team-section {
+  padding-bottom: 10.4rem; }
+  .team-section .team-title {
+    margin-bottom: 2.8rem; }
+  .team-section .separator {
+    margin-bottom: 4.7rem; }
+  .team-section .team-member {
+    border: 2px solid #ECD9D9; }
+    @media (min-width: 992px) {
+      .team-section .team-member {
+        padding: 8.7rem 0 !important; } }
+  .team-section .team-image img {
+    display: block;
+    width: 100%; }
+  .team-section .team-item .team-item-name {
+    margin-bottom: 1.7rem; }
+  .team-section .owl-dots {
+    display: flex;
+    justify-content: start; }
+    .team-section .owl-dots .owl-dot {
+      flex: 0 0 18.4px;
+      height: 6px;
+      width: 18.4px;
+      border-radius: 0%;
+      margin-right: 18.4px; }
+      .team-section .owl-dots .owl-dot span {
+        background-color: rgba(208, 182, 182, 0.4) !important;
+        width: 18.4px !important;
+        height: 6px;
+        border-radius: 0%;
+        margin: 0 !important; }
+      .team-section .owl-dots .owl-dot.active span {
+        background-color: #d0b6b6 !important; }
