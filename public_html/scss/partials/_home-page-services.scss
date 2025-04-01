@@ -1,0 +1,44 @@
+.services-section{
+    padding: 0 0 12.7rem !important;
+    
+    .services-title{
+        margin-bottom: 2.8rem;
+    }
+    .separator{
+        margin-bottom: 4.6rem;
+    }
+    .services-item{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        @media(min-width:992px){
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+        padding-right: 8.2rem;
+        padding-left: 7.1rem;
+        
+        .services-item-title{
+            margin-bottom: 3.8rem;
+        }
+        a{
+            font-size: 1.4rem;
+            line-height: 2.4rem;
+            letter-spacing: 0.14rem;
+        }
+        
+    }
+    .bg-dark-pink{
+        background-color: $dark-pink;
+    }
+    
+    .bg-light-gray{
+        background-color: $light-gray;
+    }
+    .services-image{
+        img{
+            display: block;
+            width: 100%;
+        }
+    }
+}
+

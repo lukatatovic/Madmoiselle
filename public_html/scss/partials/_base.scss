@@ -1,5 +1,5 @@
 $body-font: $lato;
-
+$span-color: $dark-pink;
 img{
     max-width: 100%;
 }
@@ -27,4 +27,11 @@ h3, .h3{
 
 h4, .h4{
     line-height: 2.4rem;
+}
+
+.separator{
+    width: 9.5rem;
+    height: 2px;
+    background-color: $span-color;
+    display: block;
 }

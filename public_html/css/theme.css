@@ -9472,6 +9472,12 @@ h3, .h3, .h3 {
 h4, .h4, .h4 {
   line-height: 2.4rem; }
 
+.separator {
+  width: 9.5rem;
+  height: 2px;
+  background-color: #ECD9D9;
+  display: block; }
+
 header .navbar-toggler {
   border: none !important;
   box-shadow: none !important;
@@ -9529,11 +9535,7 @@ header .navbar-nav .nav-item .nav-link {
   padding: 6.7rem 0 9.7rem !important; }
   .trends-section .trends-title {
     margin-bottom: 2.8rem; }
-  .trends-section .trends-line {
-    width: 9.5rem;
-    height: 2px;
-    background-color: #ECD9D9;
-    display: block;
+  .trends-section .separator {
     margin-bottom: 4.1rem; }
   .trends-section .trend-item {
     margin-bottom: 10rem; }
@@ -9563,3 +9565,32 @@ header .navbar-nav .nav-item .nav-link {
         margin-bottom: 0 !important; }
   .trends-section .last-item {
     margin-bottom: 0 !important; }
+
+.services-section {
+  padding: 0 0 12.7rem !important; }
+  .services-section .services-title {
+    margin-bottom: 2.8rem; }
+  .services-section .separator {
+    margin-bottom: 4.6rem; }
+  .services-section .services-item {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 8.2rem;
+    padding-left: 7.1rem; }
+    @media (min-width: 992px) {
+      .services-section .services-item {
+        padding-top: 0;
+        padding-bottom: 0; } }
+    .services-section .services-item .services-item-title {
+      margin-bottom: 3.8rem; }
+    .services-section .services-item a {
+      font-size: 1.4rem;
+      line-height: 2.4rem;
+      letter-spacing: 0.14rem; }
+  .services-section .bg-dark-pink {
+    background-color: #ECD9D9; }
+  .services-section .bg-light-gray {
+    background-color: #F5F5F5; }
+  .services-section .services-image img {
+    display: block;
+    width: 100%; }
