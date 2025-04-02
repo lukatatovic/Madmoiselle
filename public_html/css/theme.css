@@ -9652,3 +9652,19 @@ footer {
 
 .services-items-section {
   padding: 9.7rem 0 11.4rem !important; }
+
+.section-trends {
+  padding: 15.9rem 0 15.6rem !important; }
+
+.single-service-section {
+  padding-top: 4.9rem; }
+  .single-service-section .single-service-image img {
+    display: block;
+    width: 100%; }
+  .single-service-section .single-service-item .single-service-title {
+    font-family: "Lato", sans-serif;
+    font-size: 4.4rem;
+    line-height: 5.3rem;
+    margin-bottom: 4.6rem; }
+  .single-service-section .single-service-item .single-service-description {
+    line-height: 2.8rem; }
