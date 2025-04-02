@@ -13,6 +13,9 @@ footer{
             &:hover{
                 transform: rotate(-360deg);
             }
+            &:last-of-type{
+                margin-right: 0;
+            }
         }
     }
     .copyright{

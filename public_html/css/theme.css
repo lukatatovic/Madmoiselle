@@ -9640,6 +9640,8 @@ footer {
     transition: 0.5s linear; }
     footer .social .social-icon:hover {
       transform: rotate(-360deg); }
+    footer .social .social-icon:last-of-type {
+      margin-right: 0; }
   footer .copyright {
     font-weight: 500;
     color: #586C88;
@@ -9668,3 +9670,24 @@ footer {
     margin-bottom: 4.6rem; }
   .single-service-section .single-service-item .single-service-description {
     line-height: 2.8rem; }
+
+.blog-section {
+  padding: 7.6rem 0 15.6rem !important; }
+  .blog-section .blog-items {
+    margin-bottom: 9.3rem; }
+  .blog-section nav ul li {
+    margin-right: 2.5rem; }
+    .blog-section nav ul li:first-of-type a, .blog-section nav ul li:last-of-type a {
+      font-weight: 700;
+      color: #212121; }
+    .blog-section nav ul li:last-of-type {
+      margin-right: 0; }
+    .blog-section nav ul li a {
+      text-decoration: none;
+      color: #000;
+      border: none;
+      font-weight: 300;
+      font-size: 2rem;
+      line-height: 4.6rem; }
+      .blog-section nav ul li a.bold {
+        font-weight: 700; }
