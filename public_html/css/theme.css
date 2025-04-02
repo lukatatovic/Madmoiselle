@@ -9645,3 +9645,10 @@ footer {
     color: #586C88;
     font-size: 1.2rem;
     line-height: 2.5rem; }
+
+@media (min-width: 576px) {
+  .services-herro {
+    padding: 28.6rem 0 !important; } }
+
+.services-items-section {
+  padding: 9.7rem 0 11.4rem !important; }
