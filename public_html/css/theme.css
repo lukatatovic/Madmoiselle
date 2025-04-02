@@ -9678,7 +9678,7 @@ footer {
   .blog-section nav ul li {
     margin-right: 2.5rem; }
     .blog-section nav ul li:first-of-type a, .blog-section nav ul li:last-of-type a {
-      font-weight: 700;
+      font-weight: 500;
       color: #212121; }
     .blog-section nav ul li:last-of-type {
       margin-right: 0; }
@@ -9691,3 +9691,57 @@ footer {
       line-height: 4.6rem; }
       .blog-section nav ul li a.bold {
         font-weight: 700; }
+
+@media (min-width: 992px) {
+  .single-blog-herro {
+    padding: 6.7rem 0 10.4rem !important; } }
+
+.single-blog-herro .herro-info {
+  font-family: "Playfair Display", serif;
+  font-size: 1.4rem;
+  line-height: 4.6rem; }
+  .single-blog-herro .herro-info .herro-categories a {
+    margin-right: 1.2rem; }
+  .single-blog-herro .herro-info .herro-separator {
+    margin-right: 1.2rem; }
+  .single-blog-herro .herro-info .herro-date {
+    letter-spacing: 0.14rem; }
+
+.single-blog-herro .blog-herro-content .herro-title {
+  font-family: "Lato", sans-serif;
+  font-size: 4.4rem;
+  line-height: 5.3rem;
+  margin-bottom: 2.6rem; }
+
+.single-blog-herro .blog-herro-content .herro-description {
+  font-size: 1.8rem; }
+
+.single-blog-herro .single-blog-herro-image img {
+  display: block;
+  width: 100%; }
+
+.single-blog-content {
+  padding-bottom: 22.7rem; }
+  .single-blog-content .single-blog-data p {
+    margin-bottom: 4.7rem; }
+    .single-blog-content .single-blog-data p:last-of-type {
+      margin-bottom: 3.7rem; }
+    .single-blog-content .single-blog-data p img {
+      display: block;
+      width: 100%; }
+  .single-blog-content .single-blog-tags .single-blog-label {
+    font-family: "Playfair Display", serif;
+    font-size: 1.4rem;
+    line-height: 4.6rem;
+    margin-bottom: 0.7rem; }
+  .single-blog-content .single-blog-tags .tags-list a {
+    padding: 0.7rem 2.1rem;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.14rem;
+    background-color: #F5F5F5;
+    margin-right: 1.2rem; }
+    .single-blog-content .single-blog-tags .tags-list a:last-of-type {
+      margin-right: 0; }
+    .single-blog-content .single-blog-tags .tags-list a:hover {
+      background-color: #ECD9D9; }
