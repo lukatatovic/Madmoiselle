@@ -9844,3 +9844,13 @@ footer {
       margin-bottom: 11.6rem !important; }
       .about-section .about-aside .trend-item:last-of-type {
         margin-bottom: 0 !important; }
+
+.error-herro {
+  background-position: center center !important;
+  margin-bottom: 5rem; }
+  @media (min-width: 576px) {
+    .error-herro {
+      padding: 19.5rem 0 !important; } }
+  .error-herro a {
+    padding: 1.5rem 2.6rem;
+    margin-top: 5.9rem; }
