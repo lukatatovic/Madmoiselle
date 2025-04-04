@@ -9695,6 +9695,12 @@ footer {
       line-height: 4.6rem; }
       .blog-section nav ul li a.bold {
         font-weight: 700; }
+      .blog-section nav ul li a:focus {
+        box-shadow: none;
+        outline: none;
+        background-color: transparent;
+        color: #000;
+        font-weight: 700; }
 
 @media (min-width: 992px) {
   .single-blog-herro {

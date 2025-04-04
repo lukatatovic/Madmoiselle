@@ -30,6 +30,13 @@
                     &.bold{
                         font-weight: 700;
                     }
+                    &:focus{
+                        box-shadow: none;
+                        outline: none;
+                        background-color: transparent;
+                        color: #000;
+                        font-weight: 700;
+                    }
                 }
             }
         }
